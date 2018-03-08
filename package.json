@@ -1,0 +1,24 @@
+{
+  "name": "cypher-through",
+  "version": "1.0.0",
+  "description": "Filter Neo4j records and return what really matters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/cypher-through.git"
+  },
+  "keywords": [
+    "neo4j",
+    "cypher",
+    "record"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/cypher-through/issues"
+  },
+  "homepage": "https://github.com/bredele/cypher-through#readme"
+}

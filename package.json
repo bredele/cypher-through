@@ -1,6 +1,6 @@
 {
   "name": "cypher-through",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Filter Neo4j records and return what really matters",
   "main": "index.js",
   "scripts": {

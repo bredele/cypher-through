@@ -27,7 +27,7 @@ function objectify (record) {
   const result = {}
   record._fields.map((field, idx) => {
     const key = record.keys[idx]
-    if (typeof field === 'object' && field.toString() !== '[object Object]') {
+    if (field != null && typeof field === 'object' && field.toString() !== '[object Object]') {
       result[key] = field.properties
     } else {
       result[key] = field
